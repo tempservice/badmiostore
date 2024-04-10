@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badmio Store</title>
+    <style>
+        body {
+            background-color: rgb(0, 8, 17); /* Dark blue color */
+            color: #fff; /* White color for the text */
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .button {
+            border: none;
+            color: white;
+            padding: 25px 50px; /* Increased padding to make buttons bigger */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px; /* Increased font size for cleaner text */
+            font-family: 'Arial', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif; /* Added a round, web-safe font */
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px; /* Rounded corners */
+        }
+        .button:hover {
+            opacity: 0.8;
+        }
+        .discord {
+            background-color: #2fabd4; /* Light blue */
+        }
+        .prices {
+            background-color: #22da22; /* Light green */
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .label {
+            color: #fff; /* White color for the text */
+            font-size: 60px; /* Increased font size for bigger text */
+            font-family: 'Arial Bold', sans-serif; /* Set the font to Arial Bold */
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff; /* Neon effect */
+            margin-bottom: 50px; /* Space between the label and the buttons */
+            letter-spacing: 2px; /* Increase spacing between letters */
+            text-transform: uppercase; /* Convert text to uppercase */
+        }
+    </style>
+</head>
+<body>
+    <div class="label">Badmio Store</div>
+    <div class="button-container">
+        <a href="https://discord.gg/F7ug6YJWw6" class="button discord">Discord</a>
+        <a href="prices.html" class="button prices">Prices</a>
+    </div>
+</body>
+</html>
